@@ -33,24 +33,24 @@ void main() {
   print(faktorial(6));
 }
 
-teriak(){
+teriak() {
   return "Halo Sanbers!";
 }
 
-kalikan(num1, num2){
+kalikan(num1, num2) {
   return num1 * num2;
 }
 
-perkenalan(name, age, address, hobby){
+perkenalan(name, age, address, hobby) {
   return "Nama saya ${name}, umur saya ${age} tahun, alamat saya di ${address}, dan saya punya hobby yaitu ${hobby}!";
 }
 
-faktorial(x){
+faktorial(x) {
   var angka = 1;
-	var faktor = 1;
-	 while(angka <= x){
-		 faktor=faktor*angka;
-		 angka=angka+1;
-	 }
-	return faktor;
+  var faktor = 1;
+  while (angka <= x) {
+    faktor = faktor * angka;
+    angka = angka + 1;
+  }
+  return faktor;
 }
